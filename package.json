@@ -1,0 +1,33 @@
+{
+  "name": "typed-http",
+  "version": "1.0.0",
+  "description": "A minimalistic typed http interface",
+  "type": "module",
+  "engines": {
+    "node": "^18.0.0",
+    "npm": "^8"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinsandow/typed-http.git"
+  },
+  "keywords": [],
+  "author": "Kevin Sandow",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevinsandow/typed-http/issues"
+  },
+  "homepage": "https://github.com/kevinsandow/typed-http#readme",
+  "dependencies": {
+    "@types/express": "^4.17.14",
+    "axios": "^1.2.0",
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.3"
+  }
+}
